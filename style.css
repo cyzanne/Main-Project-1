@@ -390,13 +390,13 @@ section {
 
 /* BOOK */
 
-.book {
+.contact {
     background: url(image/background.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.book form {
+.contact form {
     margin: 0 auto 2rem auto;
     max-width: 60rem;
     border-radius: var(--border-radius-hover);
@@ -404,7 +404,7 @@ section {
     border: var(--border);
 }
 
-.book form .box {
+.contact form .box {
     width: 100%;
     padding: 1rem 1.2rem;
     border-radius: .5rem;
@@ -416,11 +416,11 @@ section {
     margin: .7rem 0;
 }
 
-.book form .box:focus {
+.contact form .box:focus {
     border: var(--border-hover);
 }
 
-.book form textarea {
+.contact form textarea {
     height: 15rem;
     resize: none;
 }
